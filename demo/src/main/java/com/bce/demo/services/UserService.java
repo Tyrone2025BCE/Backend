@@ -48,7 +48,7 @@ public User actualizar(User user) {
     existente.setName(user.getName());
     existente.setAddres(user.getAddres());
     existente.setPhone(user.getPhone());
-    // otros campos...
+    
 
     return userRepository.save(existente);
 }
